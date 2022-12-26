@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wkwdAw/JQZmSUTgwVTrjxK5j1Uoas6/1SgKj+EKIiak=",
+  "Hash": "8rCs9ylZilchgSkXvnSHAXi8FpK4dKx+sQNaKZJzo3Q=",
   "Source": "CrudContatos",
   "BasePath": "_content/CrudContatos",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Projetos\\Crud-contatos\\CrudContatos\\CrudContatos\\wwwroot\\img\\call-center-nav.png",
+      "SourceId": "CrudContatos",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projetos\\Crud-contatos\\CrudContatos\\CrudContatos\\wwwroot\\",
+      "BasePath": "_content/CrudContatos",
+      "RelativePath": "img/call-center-nav.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\call-center-nav.png"
     },
     {
       "Identity": "D:\\Projetos\\Crud-contatos\\CrudContatos\\CrudContatos\\wwwroot\\js\\site.js",
