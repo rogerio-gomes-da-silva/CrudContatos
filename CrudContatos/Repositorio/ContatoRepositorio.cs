@@ -28,5 +28,22 @@ namespace CrudContatos.Repositorio
         {
             return _context.Contatos.FirstOrDefault(x => x.Id == id);
         }
+
+        public ContatoModel Atualizar(ContatoModel contato)
+        {
+            ContatoModel contatoDB = ListarPorId(contato.Id);
+
+            if (contatoDB == null) throw new System.Exception("Houver um erro na atualização do contato");
+
+            contatoDB.Nome = contato.Nome;
+            contatoDB.Email = contato.Email;
+            contatoDB.Celular = contato.Celular;
+
+            _context.Contatos.Update(contatoDB);
+            _context.SaveChanges();
+
+            return contatoDB;
+
+        }
     }
 }
