@@ -16,3 +16,9 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.field-validation-error {
+    color: red;
+    background-color: silver;
+    border-radius: 3px;
+}
